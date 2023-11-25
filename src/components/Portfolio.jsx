@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PortfolioHeader from './PortfolioHeader';
+import PortfolioHero from './PortfolioHero';
 
 class Portfolio extends React.Component {
     constructor(props) {
@@ -13,7 +14,10 @@ class Portfolio extends React.Component {
 
 render(){
     return(
-        <PortfolioHeader />
+        <div>
+            <PortfolioHeader />
+            <PortfolioHero />
+        </div>
     )
 }
 }
