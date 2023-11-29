@@ -15,10 +15,10 @@ function PortfolioHero() {
                         Developer.
                     </p>
                     <div className="social">
-                        <a href="#"><i className='bx bxl-linkedin'></i></a>
-                        <a href="#"><i className='bx bxl-instagram'></i></a>
-                        <a href="#"><i className='bx bxl-github'></i></a>
-                        <a href="#"><i className='bx bxl-facebook-circle'></i></a>
+                        <a href="https://www.linkedin.com/in/razif-ilham-932465267/"><i className='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/razifrosadi/"><i className='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/razifrosadi"><i className='bx bxl-github'></i></a>
+                        <a href="https://www.facebook.com/titisandewa.kematian.7/"><i className='bx bxl-facebook-circle'></i></a>
                     </div>
                 </div>
                 <div className="img-sec">

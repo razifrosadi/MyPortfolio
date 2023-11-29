@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import DesignCards from './DesignCards';
 import PortfolioHeader from './PortfolioHeader';
 import PortfolioHero from './PortfolioHero';
 
@@ -17,6 +18,7 @@ render(){
         <div>
             <PortfolioHeader />
             <PortfolioHero />
+            <DesignCards />
         </div>
     )
 }
