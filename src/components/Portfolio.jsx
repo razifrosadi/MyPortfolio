@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import DesignCards from './DesignCards';
+import LatesWork from './LatestWork';
 import PortfolioHeader from './PortfolioHeader';
 import PortfolioHero from './PortfolioHero';
 
@@ -19,6 +20,7 @@ render(){
             <PortfolioHeader />
             <PortfolioHero />
             <DesignCards />
+            <LatesWork />
         </div>
     )
 }

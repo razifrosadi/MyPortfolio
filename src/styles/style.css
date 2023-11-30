@@ -32,10 +32,11 @@ header {
     background: #fff;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 section {
-    margin-bottom: 200px; /* Memberikan margin bawah pada setiap elemen section */
+    margin-bottom: 155px; /* Memberikan margin bawah pada setiap elemen section */
   }
   section h2 {
     margin-bottom: 20px;
@@ -189,7 +190,7 @@ li a:hover {
   .introduction-text {
     display: block;
     min-width: 50%;
-    padding-right: 175px;
+    padding: 20px;
   }
   
   .introduction-text p:nth-child(1) {
@@ -214,6 +215,88 @@ li a:hover {
   }
 
 /* close main About Us */
+
+/* main lates work */
+
+.main-work{
+    display: grid;
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+    align-items: center;
+    gap: 40px;
+}
+
+.project-card{
+    min-width: 35vw;
+    min-height: 60vh;
+    max-height: 80vh;
+    background-color: #2d3037;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.project-card1 {
+  background: linear-gradient(225deg, #2c2940, #5a4073);
+}
+
+.project-card .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project-card .title h3 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.project-card .title .tech-stack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-card .title .tech-stack p {
+  font-size: 12px;
+  background-color: #7c7d8180;
+  color: #fff;
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 3px;
+  max-height: 25px;
+}
+
+.project-card img {
+  position: relative;
+}
+
+.project-img-2 {
+  width: 20vw;
+  height: 27vh;
+  object-fit: cover;
+  object-position: top;
+  top: 100px;
+  left: 150px;
+  transform: scale(1.5);
+  border-radius: 10px;
+  box-shadow: -10px 10px 10px #00000080;
+  transition: 0.5s ease;
+
+  
+}
+
+.project-card:hover .project-img-2 {
+  box-shadow: -20px 20px 20px #00000080;
+}
+
+
+
+/* closed */
 
 /* main Hero*/
 .main {
@@ -286,6 +369,8 @@ li a:hover {
     position: relative;
     z-index: -1;
 }
+
+
 /* closed main */
 
 .dark-mode {
