@@ -3,6 +3,7 @@ import DesignCards from './DesignCards';
 import LatesWork from './LatestWork';
 import PortfolioHeader from './PortfolioHeader';
 import PortfolioHero from './PortfolioHero';
+import PortfolioFooter from './PortfolioFooter';
 
 class Portfolio extends React.Component {
     constructor(props) {
@@ -21,6 +22,7 @@ render(){
             <PortfolioHero />
             <DesignCards />
             <LatesWork />
+            <PortfolioFooter />
         </div>
     )
 }
