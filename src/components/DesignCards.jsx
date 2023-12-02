@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import { designData, introductionTexts } from '../utils';
 
 const DesignCards = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+
 
   const handleButtonClick = (index) => {
     setActiveIndex(index);
@@ -10,8 +11,9 @@ const DesignCards = () => {
 
 
 
+
   return (
-    <section className='container' id="introduction">
+    <section className='container' id="design-cards" >
       <div className='main-cards'>
       <div className="cards">
       <h2>My Skill</h2>

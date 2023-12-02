@@ -1,7 +1,10 @@
 import React from 'react';
 import DarkModeToggle from './DarkModeToggle';
 
+
 function PortfolioHeader({ isDarkMode, handleDarkModeToggle }){
+
+
     return(
         <header className='container'>
             <div className='page-header'>
@@ -19,10 +22,10 @@ function PortfolioHeader({ isDarkMode, handleDarkModeToggle }){
 
             <ul>
                 <li><a href="#" className="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#design-cards" >Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
 
             <DarkModeToggle isDarkMode={isDarkMode} handleDarkModeToggle={handleDarkModeToggle} />

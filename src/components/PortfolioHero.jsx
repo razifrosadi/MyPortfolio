@@ -6,7 +6,9 @@ function PortfolioHero() {
             <div className='main'>
                 <div className='detail'>
                     <h3>Hi, It's Me</h3>
+                    <div className='tracking-in-expand'>
                     <h1>I'm <span style={{ color: '#f9532d' }}>Razif</span></h1>
+                    </div>
                     <p>
                         My name is Razif Ilham Rosadi, a fresh
                         graduate in the field of Informatic

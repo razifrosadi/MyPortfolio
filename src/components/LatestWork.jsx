@@ -1,10 +1,11 @@
 import React from 'react';
-import { designData, project } from '../utils';
+import { project } from '../utils';
+
 
 const LatesWork =() => {
 
 return(
-    <section className='container'>
+    <section className='container' id='project'>
             <h2>My Project</h2>
         <div className='main-work'>
                 {project.map((pro) => (

@@ -1,31 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import DesignCards from './DesignCards';
-import LatesWork from './LatestWork';
+import LatestWork from './LatestWork';  // Perbaiki nama komponen LatesWork menjadi LatestWork
 import PortfolioHeader from './PortfolioHeader';
 import PortfolioHero from './PortfolioHero';
 import PortfolioFooter from './PortfolioFooter';
+import AppComponent from './AppComponent';
 
-class Portfolio extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: 'Razif Ilham Rosadi',
-        }
-    }
+function Portfolio() {
 
 
-
-render(){
-    return(
-        <div>
-            <PortfolioHeader />
-            <PortfolioHero />
-            <DesignCards />
-            <LatesWork />
-            <PortfolioFooter />
-        </div>
-    )
-}
+  return (
+    <div>
+      <PortfolioHeader />
+      <PortfolioHero />
+      <DesignCards />
+      <LatestWork />
+      <AppComponent />
+      <PortfolioFooter />
+    </div>
+  );
 }
 
 export default Portfolio;

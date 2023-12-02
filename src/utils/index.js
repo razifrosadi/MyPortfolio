@@ -58,6 +58,15 @@ const designData = [
     },
     {
       id: "3",
+      title: "Movie Catalogue Apps",
+      techStack1: "HTML CSS",
+      techStack2: "JAVASCRIPT (PWA)",
+      images: "./images/movie.jpg",
+      icon: "bx bxl-github",
+      deploy: "https://github.com/razifrosadi/Movie-Catalogue-Apps",
+    },
+    {
+      id: "4",
       title: "Rosadi Restaurant",
       techStack1: "HTML CSS",
       techStack2: "JAVASCRIPT",
@@ -66,7 +75,7 @@ const designData = [
       deploy: "https://github.com/razifrosadi/rosadi-restaurant-app",
     },
     {
-      id: "4",
+      id: "5",
       title: "Book Shelf",
       techStack1: "HTML CSS",
       techStack2: "JAVASCRIPT",
@@ -75,7 +84,7 @@ const designData = [
       deploy: "https://github.com/razifrosadi/Bookshelf-Apps",
     },
     {
-      id: "5",
+      id: "6",
       title: "Personal Notes",
       techStack1: "REACT",
       techStack2: "VITE",
@@ -85,4 +94,22 @@ const designData = [
     },
   ];
 
-  export { designData, introductionTexts, project };
+  const certificated = [
+    {
+      id: "1",
+      title: "Front-End Web Developer Expert",
+      images: "./images/FE-EXPERT.jpg",
+    },
+    {
+      id: "2",
+      title: "Fundamental Front-End Web",
+      images: "./images/FE-FUNDAMENTAL.jpg",
+    },
+    {
+      id: "3",
+      title: "Belajar Membuat Aplikasi dengan React",
+      images: "./images/FE-REACT.jpg",
+    },
+  ];
+
+  export { designData, introductionTexts, project, certificated };
