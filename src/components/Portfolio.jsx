@@ -5,6 +5,7 @@ import PortfolioHeader from './PortfolioHeader';
 import PortfolioHero from './PortfolioHero';
 import PortfolioFooter from './PortfolioFooter';
 import AppComponent from './AppComponent';
+import EducationComponent from './EducationComponent';
 
 function Portfolio() {
 
@@ -13,6 +14,7 @@ function Portfolio() {
     <div>
       <PortfolioHeader />
       <PortfolioHero />
+      <EducationComponent />
       <DesignCards />
       <LatestWork />
       <AppComponent />

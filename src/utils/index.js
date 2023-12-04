@@ -97,18 +97,75 @@ const designData = [
   const certificated = [
     {
       id: "1",
-      title: "Front-End Web Developer Expert",
-      images: "./images/FE-EXPERT.jpg",
+      title: "Memulai Dasar Pemrograman Untuk Menjadi Pengembang Software",
+      images: "./images/FE-DASARPEMROGRAMANUNTUKMENJADIPENGEMBANG.PNG",
+      link: "https://www.dicoding.com/certificates/ERZR0D44NXYV",
     },
     {
       id: "2",
-      title: "Fundamental Front-End Web",
-      images: "./images/FE-FUNDAMENTAL.jpg",
+      title: "Pengenalan ke Logika Pemrograman",
+      images: "./images/FE-LOGIKAPEMROGRAMAN.PNG",
+      link: "https://www.dicoding.com/certificates/MEPJKWV44X3V",
     },
     {
       id: "3",
-      title: "Belajar Membuat Aplikasi dengan React",
-      images: "./images/FE-REACT.jpg",
+      title: "Belajar Dasar Git dengan Github",
+      images: "./images/FE-GITDENGANGITHUB.PNG",
+      link: "https://www.dicoding.com/certificates/6RPN6J3K5P2M",
+    },
+    {
+      id: "4",
+      title: "Belajar Dasar Pemrograman JavaScript",
+      images: "./images/FE-JAVASCRIPT.PNG",
+      link: "https://www.dicoding.com/certificates/0LZ0GL0G3X65",
+    },
+    {
+      id: "5",
+      title: "Belajar Dasar Pemrograman Pemrograman Web",
+      images: "./images/FE-DASARPEMROGRAMANWEB.PNG",
+      link: "https://www.dicoding.com/certificates/ERZR08VOOXYV",
+    },
+    {
+      id: "6",
+      title: "Belajar Membuat Front-End Web Untuk Pemula",
+      images: "./images/FE-FRONTENDWEBPEMULA.PNG",
+      link: "https://www.dicoding.com/certificates/81P28E298POY",
+    },
+    {
+      id: "7",
+      title: "Belajar Fundamental Front-End Web Development",
+      images: "./images/FE-FUNDAMENTALFE.PNG",
+      link: "https://www.dicoding.com/certificates/JMZV9ME9JPN9",
+    },
+    {
+      id: "8",
+      title: "Belajar Membuat Aplikasi Back-End Untuk Pemula",
+      images: "./images/FE-BACKENDPEMULA.PNG",
+      link: "https://www.dicoding.com/certificates/JLX1D9YVJZ72",
+    },
+    {
+      id: "9",
+      title: "Menjadi Front-End Web Developer Expert",
+      images: "./images/FE-EXPERT.PNG",
+      link: "https://www.dicoding.com/certificates/07Z6V3NWJXQR"
+    },
+    {
+      id: "10",
+      title: "Meniti Karier Sebagai Software Developer",
+      images: "./images/FE-MENITIKARIER.PNG",
+      link: "https://www.dicoding.com/certificates/1OP80JND2XQK",
+    },
+    {
+      id: "11",
+      title: "SIB X Dicoding Cycle 4",
+      images: "./images/FE-SIB.PNG",
+      link: "",
+    },
+    {
+      id: "12",
+      title: "Belajar Membuat Aplikasi Web dengan React",
+      images: "./images/FE-BelajarMembuatAplikasiReact.PNG",
+      link: "https://www.dicoding.com/certificates/0LZ0QK8OKZ65",
     },
   ];
 

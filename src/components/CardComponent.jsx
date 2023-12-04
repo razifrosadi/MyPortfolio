@@ -1,10 +1,10 @@
 // CardComponent.js
 import React from 'react';
 
-const CardComponent = ({ title, content, images }) => (
+const CardComponent = ({ title, content, images, link }) => (
   <div className='card'>
-    <h2>{title}</h2>
-    {images && <img src={images} alt={title} />} {/* Tambahkan handling untuk gambar */}
+    <h2><a href={link || '#'}>{title}</a></h2>
+    {images && <img className='img-card' src={images} alt={title} />} {/* Tambahkan handling untuk gambar */}
     <p>{content}</p>
   </div>
 );
